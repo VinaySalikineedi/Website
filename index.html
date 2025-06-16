@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title>Pranith | Data Scientist</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div><a href="#" class="nav__logo">Pranith</a></div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#media" class="nav__link">Media</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu'></i></div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!-- HOME Section -->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I’m <span class="home__title-color">Pranith</span><br>Data Scientist</h1>
+        <a href="#contact" class="button">Contact</a>
+      </div>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/vinaysalikineedi" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/yourprofile" class="home__social-icon"><i class='bx bxl-github'></i></a>
+      </div>
+      <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0" mask-type="alpha">
+            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          </mask>
+          <g mask="url(#mask0)">
+            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+            <image class="home__blob-img" x="50" y="60" href="assets/img/main.jpg" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT Section -->
+  <section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+    <style>
+      .about__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        align-items: center;
+        gap: 4rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+      .about__img img {
+        width: 100%;
+        max-width: 450px;
+        border-radius: 1rem;
+      }
+      .about__subtitle {
+        font-size: 2.2rem;
+      }
+      .about__text {
+        font-size: 1.3rem;
+        line-height: 1.8;
+      }
+    </style>
+    <div class="about__container bd-grid">
+      <div class="about__img">
+        <img src="assets/img/Headshot.JPG" alt="Pranith's headshot">
+      </div>
+      <div>
+        <h2 class="about__subtitle">I’m Pranith</h2>
+        <p class="about__text">I am a Data Scientist with a Master’s in Business Analytics. I specialize in predictive modeling, customer segmentation, and marketing optimization. I grew revenue 15x at Cafe de la UAH and developed robotic automation for RoboCafe. I’m passionate about using data to drive business results and improve user experience.</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- SKILLS Section -->
+    <section class="skills section" id="skills">
+  <h2 class="section-title">Skills</h2>
+  <style>
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .skill-item {
+      flex: 1 1 150px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .skill-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .skill-icon {
+      font-size: 5rem;
+      color: var(--first-color);
+    }
+    .stars {
+      color: gold;
+      font-size: 1rem;
+    }
+    .skills-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+  </style>
+  <div class="skills-grid">
+    <div class="skills-row">
+      <div class="skill-item">
+        <i class="fa-brands fa-python skill-icon" style="color: #3776AB;"></i>
+        <p>Python</p>
+        <div class="stars">★★★★★</div>
+      </div>
+      <div class="skill-item">
+        <i class="fa-solid fa-database skill-icon" style="color: #00758f;"></i>
+        <p>SQL</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-r-project skill-icon" style="color: #276DC3;"></i>
+        <p>R</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="bx bx-brain skill-icon"></i>
+        <p>Machine Learning</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="bx bx-bar-chart-alt-2 skill-icon"></i>
+        <p>Visualization</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="skills-row">
+      <div class="skill-item">
+        <i class="bx bxs-analyse skill-icon"></i>
+        <p>A/B Testing</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="bx bx-map skill-icon"></i>
+        <p>Geospatial</p>
+        <div class="stars">★★★☆☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="bx bxl-git skill-icon"></i>
+        <p>Git</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+      <div class="skill-item">
+        <i class="bx bxl-google skill-icon"></i>
+        <p>Google Places API</p>
+        <div class="stars">★★★☆☆</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- WORK Section (Images only) -->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/staff 1.JPG" alt="Cafe de la UAH Staff 1">
+        </div>
+        <div class="work__img">
+          <img src="assets/img/staff 2.HEIC" alt="Cafe de la UAH Staff 2">
+        </div>
+        <div class="work__img">
+          <img src="assets/img/Robocafe logo.JPG" alt="RoboCafe Logo">
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA Section with embedded YouTube videos -->
+    <section class="work section" id="media">
+      <h2 class="section-title">Media Coverage</h2>
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <iframe width="100%" height="215" src="https://www.youtube.com/embed/ZsaXPzR_6Fg" title="FOX54 Interview" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="work__img">
+          <iframe width="100%" height="215" src="https://www.youtube.com/embed/vmSH0trbYFQ" title="WAAY 31 News" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="work__img">
+          <iframe width="100%" height="215" src="https://www.youtube.com/embed/nFwVU75Jgtk" title="RoboCafe Demo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT Section -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input type="mail" placeholder="Email" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="submit" value="Send" class="contact__button button">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__title">Pranith</p>
+    <div class="footer__social">
+      <a href="https://linkedin.com/in/vinaysalikineedi" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/yourprofile" class="footer__icon"><i class='bx bxl-github'></i></a>
+    </div>
+    <p class="footer__copy">&copy; 2025 Pranith Vinay Kumar Salikineedi. All rights reserved</p>
+  </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
